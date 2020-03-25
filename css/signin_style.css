@@ -1,0 +1,125 @@
+body{
+    background-image: url(https://picsum.photos/1440/800);
+}
+
+.post{
+    padding: 8px;
+}
+
+.reaction{
+    border-top: 1px solid #DEDFE2;
+    border-bottom: 1px solid #DEDFE2;
+    margin-bottom: 20px;
+    
+}
+
+
+
+.reaction_display{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+}
+
+.reaction_input{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    border-top: 1px solid #DEDFE2;
+
+
+}
+
+
+.message_input{
+    width: 100%;
+    border-radius: 30px;
+    padding-left: 10px;
+    background-color: #F2F3F5;
+    color: #9CA1A9;
+    padding: 8px;
+    margin-bottom: 16px;
+    outline: none;
+}
+
+
+.message{
+    padding: 16px;
+}
+
+
+.require{
+    display: flex;
+}
+
+
+/* ----------log in---------- */
+
+
+
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.login_page{
+
+    width: 60%;
+    height: 500px;
+
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+
+    position: absolute;
+    top:0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+
+    padding: 20px;
+    background-color: #eee;
+    border-radius:10px ;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.3);
+
+    
+}
+
+.login_form{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+
+.login_form label{
+    font-size: 1.2rem;
+}
+
+
+.login_form input{
+    margin-bottom: 16px;
+
+}
+
+.login_button{
+font-size: 1.2rem;
+}
+
+hr{
+    border: 1px solid #8f8f8f;
+    width: 100%;
+
+}
+
+.signup_button{
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    }
+    
