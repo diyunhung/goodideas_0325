@@ -2,63 +2,6 @@ body{
     background-image: url(https://picsum.photos/1440/800);
 }
 
-.post{
-    padding: 8px;
-}
-
-.reaction{
-    border-top: 1px solid #DEDFE2;
-    border-bottom: 1px solid #DEDFE2;
-    margin-bottom: 20px;
-    
-}
-
-
-
-.reaction_display{
-    display: flex;
-    justify-content: space-between;
-    padding: 8px;
-}
-
-.reaction_input{
-    width: 80%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    padding: 8px;
-    border-top: 1px solid #DEDFE2;
-
-
-}
-
-
-.message_input{
-    width: 100%;
-    border-radius: 30px;
-    padding-left: 10px;
-    background-color: #F2F3F5;
-    color: #9CA1A9;
-    padding: 8px;
-    margin-bottom: 16px;
-    outline: none;
-}
-
-
-.message{
-    padding: 16px;
-}
-
-
-.require{
-    display: flex;
-}
-
-
-/* ----------log in---------- */
-
-
-
 
 .container{
     width: 100vw;
@@ -69,7 +12,7 @@ body{
 .login_page{
 
     width: 60%;
-    height: 400px;
+    height: 500px;
 
     display: flex;
     flex-direction: column;
