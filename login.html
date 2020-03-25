@@ -7,7 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="css/style.css">
     <title>log in</title>
   </head>
   <body>
@@ -15,11 +15,21 @@
     <div class="container">
 
         <section class="login_page">
-            <input type="text" class="input_email" name="mail">
-            <input type="text" class="input_password" name="password">
 
-            <button>Log In</button>
-            <button>Sign Up</button>
+            <form action="" class="login_form">
+                <label for="email">輸入信箱</label>
+                <input type="text" class="input_email" placeholder="輸入信箱" name="mail">
+
+                <label for="password">輸入密碼</label>
+                <input type="text" class="input_password" placeholder="輸入密碼" name="password">
+
+                <button type="submit" class="btn btn-success login_button">Log In</button>
+
+            </form>
+
+            <hr>
+
+            <button type="button" class="btn btn-warning signup_button">Sign Up</button>
 
             <a href="">忘記密碼</a>
 

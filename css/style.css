@@ -57,7 +57,68 @@
 /* ----------log in---------- */
 
 
+
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
 .login_page{
 
-    margin: 0 auto;
+    width: 60%;
+    height: 400px;
+
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+
+    position: absolute;
+    top:0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+
+    padding: 20px;
+    background-color: #eee;
+    border-radius:10px ;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.3);
+
+    
 }
+
+.login_form{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+
+.login_form label{
+    font-size: 1.2rem;
+}
+
+
+.login_form input{
+    margin-bottom: 16px;
+
+}
+
+.login_button{
+font-size: 1.2rem;
+}
+
+hr{
+    border: 1px solid #8f8f8f;
+    width: 100%;
+
+}
+
+.signup_button{
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    }
+    
